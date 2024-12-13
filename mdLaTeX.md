@@ -116,6 +116,7 @@ cd ~ 는 ~(기본설정)으로 돌아가기
 cd는 한단계 전 폴더로 돌아가기
 ls는 현재 폴더내 폴더와 파일목록보기
 ls -al 은 숨김파일까지 포함해서 목록보기
+ll= ls -al
 cd {경로} 는 경로위치로 이동
 cd .. 은 상위폴더로 이동
 mkdir {이름} 은 폴더생성
@@ -149,8 +150,13 @@ start {이름} 은 열기!
 
 ***
 [git 꾸미기](https://pages.github.com)
-
-
+***
+git switch -c 이름 은 새로운 브랜치 생성후 브랜치변환
+git push -u origin 이름은 이름의 브랜치를 깃허브에 생성
+git switch 이름은 브랜치변환
+git pull --prune 는 소스를 최신화
+git branch 는 브랜치목록확인
+git branch -D 이름은 브랜치삭제
 ___
 
 
